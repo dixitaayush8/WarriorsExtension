@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "The Warriors Extension",
+  "version": "1.0",
+  "description": "DubNation for life",
+ 
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["<all_urls>"]
+}]
+}
